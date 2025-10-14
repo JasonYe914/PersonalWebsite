@@ -1,0 +1,51 @@
+
+.project-section{
+    align-self: center;
+    display:flex; 
+    gap: 20px;
+}
+
+.project-1{
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 30%; 
+}
+
+.project-1-title{
+    color: black;
+    text-align: center;
+}
+
+.project-1-info{
+    color:black; 
+}
+
+.project-2{  
+    background-color: darkorange;
+    padding: 15px;
+    border-radius: 20px;
+    width:30%; 
+}
+
+.project-2-title{
+    text-align: center; 
+}
+
+.project-3{
+    background-color: pink;
+    padding: 15px;
+    border-radius: 20px;
+    width:30%; 
+}
+
+.project-3-title{
+    color:black; 
+    text-align: center; 
+}
+
+.project-3-info{
+    color:black; 
+}
+
