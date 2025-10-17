@@ -6,7 +6,7 @@
 }
 
 .project-1{
-    background-color: whitesmoke;
+    background-color: #ffffd8;
     padding: 15px;
     border-radius: 20px;
     margin-left: 10px;
@@ -14,38 +14,43 @@
 }
 
 .project-1-title{
-    color: black;
+    color: #3B3B3B; 
     text-align: center;
 }
 
 .project-1-info{
-    color:black; 
+    color: #3B3B3B;  
 }
 
 .project-2{  
-    background-color: darkorange;
+    background-color: #ffA876;
     padding: 15px;
     border-radius: 20px;
     width:30%; 
 }
 
 .project-2-title{
+    color: #3B3B3B; 
     text-align: center; 
 }
 
+.project-2-info{
+    color: #3B3B3B; 
+}
+
 .project-3{
-    background-color: pink;
+    background-color: lightblue;
     padding: 15px;
     border-radius: 20px;
     width:30%; 
 }
 
 .project-3-title{
-    color:black; 
+    color: #3B3B3B; 
     text-align: center; 
 }
 
 .project-3-info{
-    color:black; 
+    color: #3B3B3B; 
 }
 
