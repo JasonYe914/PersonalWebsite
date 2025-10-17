@@ -17,7 +17,7 @@ function home(){
                     optimizing performance, or learning new frameworks. Outside the code, I’m a lifelong learner with a curiosity for design, tech trends, and improving my skills every day.
                 </p>
             </div>
-            <img src="premium_photo-1673967831980-1d377baaded2.jpeg" alt="Jason Ye" className="about-photo" />
+        
             <div className="dashed-line"></div>
         </div>
     )

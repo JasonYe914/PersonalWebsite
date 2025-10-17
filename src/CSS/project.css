@@ -1,0 +1,56 @@
+
+.project-section{
+    align-self: center;
+    display:flex; 
+    gap: 20px;
+}
+
+.project-1{
+    background-color: #ffffd8;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 30%; 
+}
+
+.project-1-title{
+    color: #3B3B3B; 
+    text-align: center;
+}
+
+.project-1-info{
+    color: #3B3B3B;  
+}
+
+.project-2{  
+    background-color: #ffA876;
+    padding: 15px;
+    border-radius: 20px;
+    width:30%; 
+}
+
+.project-2-title{
+    color: #3B3B3B; 
+    text-align: center; 
+}
+
+.project-2-info{
+    color: #3B3B3B; 
+}
+
+.project-3{
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 20px;
+    width:30%; 
+}
+
+.project-3-title{
+    color: #3B3B3B; 
+    text-align: center; 
+}
+
+.project-3-info{
+    color: #3B3B3B; 
+}
+
