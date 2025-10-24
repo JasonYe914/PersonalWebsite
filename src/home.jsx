@@ -5,7 +5,14 @@ function home(){
         <div className="container">
             <div className="aesthetics">
                 <div className="orange-line"></div>
-                <h1>ABOUT.</h1>
+                <h1> 
+                    Hello! My name is 
+                    <span className="color-1"> Jason</span>
+                    <br/>
+                    I am a <span className="color-2">
+                            Software Engineer
+                        </span>
+                </h1>
             </div>
             <div className="bio-1">
                 <p className="bio">Hi, I’m Jason Ye — a passionate and driven software developer based in Ontario. 

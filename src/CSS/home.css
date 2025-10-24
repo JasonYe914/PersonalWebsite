@@ -5,11 +5,11 @@
     width: 40%;
     margin-left: 100px;
     margin-right: 100px;
-    color: #3B3B3B; 
+    color: black; 
 }
 .bio-2{
     font-family: 'Inter', sans-serif;
-    color: #3B3B3B; 
+    color: black; 
     display:flex; 
     width: 40%;
     margin-left: 100px;
@@ -18,26 +18,29 @@
 
 .aesthetics{
     font-family: 'Poppins', sans-serif;
-    color: #5C4E3D; /* warm brownish-gray */
-    margin-left: 100px;
-    margin-top: 100px; 
-    font-size: 1.75rem;
+    color: black; /* warm brownish-gray */
+    margin-left: 100px; 
+    font-size: 1.2rem;
 }
 
-.orange-line {
-  width: 65%;            /* length of line */
-  height: 3px;             /* thickness */
-  background-color: #ffffd8; /* orange color */
-  z-index: 2; /* ensure it's on top */
-  position: relative;
+.color-1{
+  color:#00bcd4; 
 }
 
-.dashed-line {
-  width: 25%;                  /* full width of the section */
-  border-top: 7px dashed #ffffd8; /* orange dashed line */
-  margin-top: 150px;             /* space above the line */
-  margin-left:100px; 
+.color-2{
+  color:#00bcd4; 
 }
+
+.dashed-line{
+  margin-top: 50px;
+  margin-left: 98px;
+  width:42%; 
+  border: none; /* Remove default border */
+  border-top: 3px solid black; /* Add a custom top border */
+  
+}
+
+
 
 
 

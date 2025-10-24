@@ -1,56 +1,107 @@
 
 .project-section{
+    margin-top: 120px;
+    justify-content: center;
+    position: relative;
     align-self: center;
     display:flex; 
     gap: 20px;
 }
 
 .project-1{
-    background-color: #ffffd8;
     padding: 15px;
-    border-radius: 20px;
     margin-left: 10px;
-    width: 30%; 
+    width:29%; 
+}
+
+.project-1:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .project-1-title{
-    color: #3B3B3B; 
+    color: black;  
     text-align: center;
 }
 
 .project-1-info{
-    color: #3B3B3B;  
+    color: black;  
+}
+
+.project-1-img{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100%; 
+    height: auto; 
+}
+
+.project-1-img2{
+    margin-top: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100%; 
+    height: auto; 
 }
 
 .project-2{  
-    background-color: #ffA876;
     padding: 15px;
-    border-radius: 20px;
-    width:30%; 
+    width:29%; 
+}
+
+.project-2:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  opacity: 100%;
 }
 
 .project-2-title{
-    color: #3B3B3B; 
+    color: black;  
     text-align: center; 
 }
 
 .project-2-info{
-    color: #3B3B3B; 
+    color: black; 
 }
 
+.project-2-img{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100%; 
+    height: auto; 
+}
+
+.project-2-img2{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 15px; 
+    width: 100%;
+    height:auto; 
+}
+
+
 .project-3{
-    background-color: lightblue;
     padding: 15px;
-    border-radius: 20px;
-    width:30%; 
+    width:29%; 
+}
+
+.project-3:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  opacity: 100%;
 }
 
 .project-3-title{
-    color: #3B3B3B; 
+    color: black; 
     text-align: center; 
 }
 
 .project-3-info{
-    color: #3B3B3B; 
+    color: black;  
 }
 
+.project-3-img{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100%; 
+    height: auto; 
+}
