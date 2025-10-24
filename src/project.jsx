@@ -4,7 +4,15 @@ function project(){
     return (
         <section className="project-section">
             <div className="project-1">
-                <h1 className="project-1-title">Valorant-Team Picker</h1>
+                <h1 className="project-1-title">Valorant Team Picker</h1>
+                <a 
+                    href="https://github.com/JasonYe914/ValorantTeamSelect"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    <img src="Screenshot 2025-10-18 014353.png" alt="valorant" className="project-1-img"></img>
+                    <img src="Screenshot 2025-10-18 180723.png" alt="valorant" className="project-1-img2"></img>
+                </a>
                 <p className="project-1-info"> Built a full-stack CRUD application that allows users to create a fantasy Valorant 
                                                 team using Spring Boot for backend and React.js for frontend. 
                     <br /> 
@@ -23,6 +31,14 @@ function project(){
             </div>
             <div className="project-2">
                 <h1 className="project-2-title">Popular Movie Finder</h1>
+                <a 
+                    href="https://github.com/JasonYe914/list-of-movies"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    <img src="Screenshot 2025-10-18 011806.png" alt="Movie" className="project-2-img"></img>
+                    <img src="Screenshot 2025-10-18 013055.png" alt="movie-1" className="project-2-img2"></img>
+                </a>
                 <p className="project-2-info">Built a movie website that shows top 10 most popular movies currently by fetching data from IMDB's API.
                                               <br /> 
                                               <p></p>
@@ -36,6 +52,13 @@ function project(){
             </div>
             <div className="project-3">
                 <h1 className="project-3-title">Flappy Bird Simulation</h1>
+                <a 
+                    href="https://github.com/JasonYe914/FlappyBirdGame"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    <img src="Screenshot 2025-09-02 192834.png" alt="flappy" className="project-3-img"></img>
+                </a>
                 <p className="project-3-info">Developed an automated Flappy Bird game in Java with graphical display using 
                                                 Swing/AWT. 
                                                 <br />  
