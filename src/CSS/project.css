@@ -1,107 +1,170 @@
+.project-section {
+  margin-top: 120px;
+  justify-content: center;
+  position: relative;
+  align-self: center;
+  display: flex; 
+  gap: 20px;
+}
 
-.project-section{
-    margin-top: 120px;
-    justify-content: center;
-    position: relative;
-    align-self: center;
+.project-1 {
+  padding: 15px;
+  margin-left: 10px;
+  width: 29%; 
+}
+
+.project-1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(201, 162, 39, 0.3); /* subtle gold glow */
+}
+
+.project-1-title {
+  color: #c9a227;  /* gold accent */
+  text-align: center;
+}
+
+.project-1-info {
+  color: #f5f5f5;  /* white text */
+}
+
+.project-1-img {
+  box-shadow: 0 8px 20px rgba(201, 162, 39, 0.2);
+  border-radius: 10px;
+  width: 100%; 
+  height: auto; 
+}
+
+.project-1-img2 {
+  margin-top: 15px;
+  box-shadow: 0 8px 20px rgba(201, 162, 39, 0.2);
+  border-radius: 10px;
+  width: 100%; 
+  height: auto; 
+}
+
+.project-2 {  
+  padding: 15px;
+  width: 29%; 
+}
+
+.project-2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(201, 162, 39, 0.3);
+  opacity: 100%;
+}
+
+.project-2-title {
+  color: #c9a227;  
+  text-align: center; 
+}
+
+.project-2-info {
+  color: #f5f5f5; 
+}
+
+.project-2-img {
+  box-shadow: 0 8px 20px rgba(201, 162, 39, 0.2);
+  border-radius: 10px;
+  width: 100%; 
+  height: auto; 
+}
+
+.project-2-img2 {
+  box-shadow: 0 8px 20px rgba(201, 162, 39, 0.2);
+  border-radius: 10px;
+  margin-top: 15px; 
+  width: 100%;
+  height: auto; 
+}
+
+.project-3 {
+  padding: 15px;
+  width: 29%; 
+}
+
+.project-3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(201, 162, 39, 0.3);
+  opacity: 100%;
+}
+
+.project-3-title {
+  color: #c9a227; 
+  text-align: center; 
+}
+
+.project-3-info {
+  color: #f5f5f5;  
+}
+
+.project-3-img {
+  box-shadow: 0 8px 20px rgba(201, 162, 39, 0.2);
+  border-radius: 10px;
+  width: 100%; 
+  height: auto; 
+}
+
+.formating-1{
     display:flex; 
-    gap: 20px;
+    flex-direction: row;
 }
 
-.project-1{
-    padding: 15px;
-    margin-left: 10px;
-    width:29%; 
+.formating-2{
+    display:flex; 
+    flex-direction: column;
+    gap:20; 
 }
 
-.project-1:hover{
+.formatting-3{
+    display:flex;
+    flex-direction: row;
+}
+
+.project-4{
+  padding: 15px;
+  margin-left: 10px;
+  width: 29%; 
+}
+
+.project-4-title{
+  color: #c9a227; 
+  text-align: center; 
+}
+
+.project-4:hover{
   transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-
-.project-1-title{
-    color: black;  
-    text-align: center;
-}
-
-.project-1-info{
-    color: black;  
-}
-
-.project-1-img{
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    width: 100%; 
-    height: auto; 
-}
-
-.project-1-img2{
-    margin-top: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    width: 100%; 
-    height: auto; 
-}
-
-.project-2{  
-    padding: 15px;
-    width:29%; 
-}
-
-.project-2:hover{
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 20px rgba(201, 162, 39, 0.3);
   opacity: 100%;
 }
 
-.project-2-title{
-    color: black;  
-    text-align: center; 
+
+.project-4-img{
+  box-shadow: 0 8px 20px rgba(201, 162, 39, 0.2);
+  border-radius: 10px;
+  width: 100%; 
+  height: auto; 
 }
 
-.project-2-info{
-    color: black; 
+.project-5{
+  padding: 15px;
+  margin-left: 10px;
+  width: 29%; 
 }
 
-.project-2-img{
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    width: 100%; 
-    height: auto; 
+.project-5-title{
+  color: #c9a227; 
+  text-align: center; 
 }
 
-.project-2-img2{
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    margin-top: 15px; 
-    width: 100%;
-    height:auto; 
-}
-
-
-.project-3{
-    padding: 15px;
-    width:29%; 
-}
-
-.project-3:hover{
+.project-5:hover{
   transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 20px rgba(201, 162, 39, 0.3);
   opacity: 100%;
 }
 
-.project-3-title{
-    color: black; 
-    text-align: center; 
-}
-
-.project-3-info{
-    color: black;  
-}
-
-.project-3-img{
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    width: 100%; 
-    height: auto; 
+.project-5-img{
+  box-shadow: 0 8px 20px rgba(201, 162, 39, 0.2);
+  border-radius: 10px;
+  width: 100%; 
+  height: auto; 
 }

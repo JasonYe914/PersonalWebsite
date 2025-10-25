@@ -7,8 +7,8 @@ function navbar(){
             <div className="navbar-brand">
                 <Link to="/" className="name">Jason Ye</Link>
                 <Link to="/" className="home-link"> Home </Link> 
-                <Link to="/project" className="project-link"> Projects </Link> 
-                <Link to="/contact" className="contact-link"> Contact </Link> 
+                <Link to="/" className="project-link"> Projects </Link> 
+                <Link to="/" className="contact-link"> Contact </Link> 
             </div>
         </nav>
     )
