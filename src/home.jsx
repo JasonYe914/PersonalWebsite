@@ -5,13 +5,11 @@ function home(){
         <div className="container">
             <div className="aesthetics">
                 <div className="orange-line"></div>
-                <h1> 
-                    Hello! My name is 
-                    <span className="color-1"> Jason</span>
-                    <br/>
-                    I am a <span className="color-2">
-                            Software Engineer
-                        </span>
+                <h1 className="part-1"> 
+                    <p className="color-1"><span> Hello! My name is  Jason</span>
+                    <br></br>
+                    I am a Software Engineer
+                    </p>
                 </h1>
             </div>
             <div className="bio-1">
@@ -21,7 +19,7 @@ function home(){
                 </p>
                 <p className="bio-2">
                     I enjoy turning ideas into real web experiences, whether that’s crafting clean UIs, 
-                    optimizing performance, or learning new frameworks. Outside the code, I’m a lifelong learner with a curiosity for design, tech trends, and improving my skills every day.
+                    optimizing performance, or learning new frameworks. Outside the code, I enjoy rock climbing, going to the gym, cats and boba!
                 </p>
             </div>
         

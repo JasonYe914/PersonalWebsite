@@ -1,46 +1,69 @@
-
-.bio{
-    font-family: 'Inter', sans-serif;
-    display: flex; 
-    width: 40%;
-    margin-left: 100px;
-    margin-right: 100px;
-    color: black; 
-}
-.bio-2{
-    font-family: 'Inter', sans-serif;
-    color: black; 
-    display:flex; 
-    width: 40%;
-    margin-left: 100px;
-    margin-right: 100px;
+.container {
+  margin-top: 170px;
+  display: fixed;
+  justify-content: center;
 }
 
-.aesthetics{
-    font-family: 'Poppins', sans-serif;
-    color: black; /* warm brownish-gray */
-    margin-left: 100px; 
-    font-size: 1.2rem;
+.bio {
+  font-family: 'Inter', sans-serif;
+  display: flex; 
+  width: 40%;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #f5f5f5; /* white text on dark background */
 }
 
-.color-1{
-  color:#00bcd4; 
+.bio-2 {
+  font-family: 'Inter', sans-serif;
+  color: #f5f5f5; 
+  display: flex; 
+  width: 40%;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.color-2{
-  color:#00bcd4; 
+.aesthetics {
+  display:inline-block; 
+  font-family: 'Poppins', sans-serif;
+  color: #c9a227; /* gold accent */
+  margin-left: 100px; 
+  font-size: 1.2rem;
+
 }
 
-.dashed-line{
+
+@keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+}
+
+@keyframes typing{
+  from {
+    width:0; 
+  }
+}
+
+
+.color-1 {
+  width:100%; 
+  white-space:nowrap; 
+  overflow: hidden;
+  border-right: 5px solid #c9a227; 
+  animation: 
+        typing 2s steps(100),
+        cursor .4s step-end infinite alternate; 
+}
+
+.color-2 {
+  color: #e0b84d; /* lighter gold variation */
+}
+
+.dashed-line {
   margin-top: 50px;
   margin-left: 98px;
-  width:42%; 
-  border: none; /* Remove default border */
-  border-top: 3px solid black; /* Add a custom top border */
-  
+  width: 42%; 
+  border: none;
+  border-top: 3px solid #c9a227; /* gold divider */
 }
-
-
-
-
 

@@ -15,10 +15,10 @@ function contact(){
 
         emailjs
         .sendForm(
-            "service_89k7xjn",
-            "template_etqymba",
+            "TEMPLATE",
+            "TEMPLATE",
             formRef.current,
-            "2dUu_BWzAOkzyVApk"
+            "TEMPLATE"
         ).then(
             () => {
                 setStatus("Sent!");
